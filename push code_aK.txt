@@ -1,0 +1,433 @@
+wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m 'change api address'
+husky > commit-msg (node v14.5.0)
+⧗   input: change api address
+✖   references may not be empty [references-empty]
+
+✖   found 1 problems, 0 warnings
+ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+
+husky > commit-msg hook failed (add --no-verify to bypass)
+➜  wepet git:(feature/modules-profile-address) ✗ git checkout staging
+error: Your local changes to the following files would be overwritten by checkout:
+        src/modules/Profile/AddAddress/AddressModal/index.js
+Please commit your changes or stash them before you switch branches.
+Aborting
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+
+
+
+➜  wepet git:(feature/modules-profile-address) ✗ git stash
+Saved working directory and index state WIP on modules-profile-address: f3f8d2db PET-127 test commit
+
+
+➜  wepet git:(feature/modules-profile-address) git checkout staging
+Switched to branch 'staging'
+Your branch is up to date with 'origin/staging'.
+git pu%                                                                                                                                                      
+
+
+➜  wepet git:(staging) git pull origin staging
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+From gitlab.com:techfox/wepet-space/wepet
+ * branch              staging    -> FETCH_HEAD
+Already up to date.
+
+
+➜  wepet git:(staging) git checkut -
+git: 'checkut' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+➜  wepet git:(staging) git checkout -
+Switched to branch 'feature/modules-profile-address'
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+git stas%                                                                                                                                                    
+➜  wepet git:(feature/modules-profile-address) git stash pop
+Removing src/modules/Profile/AddAddress/AddressModal/index1.js
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (f8df8925f5a902487f349ec5162fcbf9b4e30b8d)
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m 'PET-262 fix change api address'
+husky > commit-msg (node v14.5.0)
+[feature/modules-profile-address e7d99497] PET-262 change api address
+ 7 files changed, 111 insertions(+), 65 deletions(-)
+ rename src/modules/Profile/AddAddress/AddressModal/{index1.js => index.js} (51%)
+➜  wepet git:(feature/modules-profile-address) git push origin feature/modules-profile-address
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (22/22), 2.62 KiB | 167.00 KiB/s, done.
+Total 22 (delta 15), reused 0 (delta 0)
+remote: 
+remote: View merge request for feature/modules-profile-address:
+remote:   https://gitlab.com/techfox/wepet-space/wepet/-/merge_requests/192
+remote: 
+To gitlab.com:techfox/wepet-space/wepet.git
+   f3f8d2db..e7d99497  feature/modules-profile-address -> feature/modules-profile-address
+➜  wepet git:(feature/modules-profile-address) wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m 'change api address'
+husky > commit-msg (node v14.5.0)
+⧗   input: change api address
+✖   references may not be empty [references-empty]
+
+✖   found 1 problems, 0 warnings
+ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+
+husky > commit-msg hook failed (add --no-verify to bypass)
+➜  wepet git:(feature/modules-profile-address) ✗ git checkout staging
+error: Your local changes to the following files would be overwritten by checkout:
+        src/modules/Profile/AddAddress/AddressModal/index.js
+Please commit your changes or stash them before you switch branches.
+Aborting
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+➜  wepet git:(feature/modules-profile-address) ✗ git stash
+Saved working directory and index state WIP on modules-profile-address: f3f8d2db PET-127 test commit
+➜  wepet git:(feature/modules-profile-address) git checkout staging
+Switched to branch 'staging'
+Your branch is up to date with 'origin/staging'.
+git pu%                                                                                                                                                      
+➜  wepet git:(staging) git pull origin staging
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+From gitlab.com:techfox/wepet-space/wepet
+ * branch              staging    -> FETCH_HEAD
+Already up to date.
+➜  wepet git:(staging) git checkut -
+git: 'checkut' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+➜  wepet git:(staging) git checkout -
+Switched to branch 'feature/modules-profile-address'
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+git stas%                                                                                                                                                    
+➜  wepet git:(feature/modules-profile-address) git stash pop
+Removing src/modules/Profile/AddAddress/AddressModal/index1.js
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (f8df8925f5a902487f349ec5162fcbf9b4e30b8d)
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m 'PET-262 change api address'
+husky > commit-msg (node v14.5.0)
+[feature/modules-profile-address e7d99497] PET-262 change api address
+ 7 files changed, 111 insertions(+), 65 deletions(-)
+ rename src/modules/Profile/AddAddress/AddressModal/{index1.js => index.js} (51%)
+➜  wepet git:(feature/modules-profile-address) git push origin feature/modules-profile-address
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (22/22), 2.62 KiB | 167.00 KiB/s, done.
+Total 22 (delta 15), reused 0 (delta 0)
+remote: 
+remote: View merge request for feature/modules-profile-address:
+remote:   https://gitlab.com/techfox/wepet-space/wepet/-/merge_requests/192
+remote: 
+To gitlab.com:techfox/wepet-space/wepet.git
+   f3f8d2db..e7d99497  feature/modules-profile-address -> feature/modules-profile-address
+➜  wepet git:(feature/modules-profile-address) wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m 'change api address'
+husky > commit-msg (node v14.5.0)
+⧗   input: change api address
+✖   references may not be empty [references-empty]
+
+✖   found 1 problems, 0 warnings
+ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+
+husky > commit-msg hook failed (add --no-verify to bypass)
+➜  wepet git:(feature/modules-profile-address) ✗ git checkout staging
+error: Your local changes to the following files would be overwritten by checkout:
+        src/modules/Profile/AddAddress/AddressModal/index.js
+Please commit your changes or stash them before you switch branches.
+Aborting
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+➜  wepet git:(feature/modules-profile-address) ✗ git stash
+Saved working directory and index state WIP on modules-profile-address: f3f8d2db PET-127 test commit
+➜  wepet git:(feature/modules-profile-address) git checkout staging
+Switched to branch 'staging'
+Your branch is up to date with 'origin/staging'.
+git pu%                                                                                                                                                      
+➜  wepet git:(staging) git pull origin staging
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+From gitlab.com:techfox/wepet-space/wepet
+ * branch              staging    -> FETCH_HEAD
+Already up to date.
+➜  wepet git:(staging) git checkut -
+git: 'checkut' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+➜  wepet git:(staging) git checkout -
+Switched to branch 'feature/modules-profile-address'
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+git stas%                                                                                                                                                    
+➜  wepet git:(feature/modules-profile-address) git stash pop
+Removing src/modules/Profile/AddAddress/AddressModal/index1.js
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (f8df8925f5a902487f349ec5162fcbf9b4e30b8d)
+➜  wepet git:(feature/modules-profile-address) ✗ git status
+On branch feature/modules-profile-address
+Your branch is up to date with 'origin/feature/modules-profile-address'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/hocs/withLazyKeyQuery/index.js
+        modified:   src/hocs/withUser/index.js
+        modified:   src/modules/Home/List/index.js
+        modified:   src/modules/Home/model.js
+        modified:   src/modules/Home/private-components/UserInfo/index.js
+        modified:   src/modules/Home/private-components/Utilities/index.js
+        modified:   src/modules/Profile/AddAddress/AddressModal/index.js
+        deleted:    src/modules/Profile/AddAddress/AddressModal/index1.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m 'PET-262 change api address'
+husky > commit-msg (node v14.5.0)
+[feature/modules-profile-address e7d99497] PET-262 change api address
+ 7 files changed, 111 insertions(+), 65 deletions(-)
+ rename src/modules/Profile/AddAddress/AddressModal/{index1.js => index.js} (51%)
+➜  wepet git:(feature/modules-profile-address) git push origin feature/modules-profile-address
+Enter passphrase for key '/Users/macbookpro/.ssh/id_rsa': 
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (22/22), 2.62 KiB | 167.00 KiB/s, done.
+Total 22 (delta 15), reused 0 (delta 0)
+remote: 
+remote: View merge request for feature/modules-profile-address:
+remote:   https://gitlab.com/techfox/wepet-space/wepet/-/merge_requests/192
+remote: 
+To gitlab.com:techfox/wepet-space/wepet.git
+   f3f8d2db..e7d99497  feature/modules-profile-address -> feature/modules-profile-address
+➜  wepet git:(feature/modules-profile-address) 

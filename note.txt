@@ -9,3 +9,9 @@ lang0896699431@gmail.com, Mot....
 slack
 https://app.slack.com/client/TF11HRRGU/D01CA7TJZ9B/app
 Dương Văn Lăng, Mot....
+
+https://oblador.github.io/react-native-vector-icons/
+
+Figma
+https://www.figma.com/file/2H74UOnePlVH0HHXXVxHTr/Petown?node-id=0%3A1
+https://www.figma.com/file/g8hyEki99OMcfAMnVlNIZ8/Petown-edit?node-id=4485%3A0

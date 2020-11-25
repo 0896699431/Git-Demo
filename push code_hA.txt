@@ -1,0 +1,19 @@
+➜  wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m "PET-262 update  change api address"
+➜  wepet git:(feature/modules-profile-address) git status
+➜  wepet git:(feature/modules-profile-address) git checkout staging 
+➜  wepet git:(staging) git pull origin staging
+➜  wepet git:(staging) git checkout -
+➜  wepet git:(feature/modules-profile-address) git merge --no-ff staging 
+➜  wepet git:(feature/modules-profile-address) git push 
+➜  wepet git:(feature/modules-profile-address) 
+
+➜. wepet git:(feature/modules-profile-address) ✗ git add .
+➜  wepet git:(feature/modules-profile-address) ✗ git commit -m "PET-262 update  change api address"
+➜  wepet git:(feature/modules-profile-address) git status
+➜  wepet git:(feature/modules-profile-address) git checkout staging 
+➜  wepet git:(staging) git pull origin staging
+➜  wepet git:(staging) git checkout - 
+➜  wepet git:(feature/modules-profile-address) git merge --no-ff staging 
+➜  wepet git:(feature/modules-profile-address) git push 
+➜  wepet git:(feature/modules-profile-address) 
